@@ -22,26 +22,26 @@ logging.getLogger("pyrogram").setLevel(logging.WARNING)
 class Config(object):
 
     # Get a bot token from botfather
-    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
+    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7924886465:AAFFvaLDFMy93VmRVP44ONbpUSGZjOWMInE")
 
     # Get from my.telegram.org
-    APP_ID = int(os.environ.get("APP_ID", ""))
+    APP_ID = int(os.environ.get("APP_ID", "20834239"))
 
     # Get from my.telegram.org
-    API_HASH = os.environ.get("API_HASH", "")
+    API_HASH = os.environ.get("API_HASH", "df0f365b94727a26c1b8bcddb3d7b181")
 
     # Generate a user session string
     TG_USER_SESSION = os.environ.get("TG_USER_SESSION", "")
 
     # ID of Channels from which the bot should search files
-    CHANNELS = set(int(x) for x in os.environ.get("CHANNELS", "").split())
+    CHANNELS = set(int(x) for x in os.environ.get("Ratan_Tata_Movies").split())
 
     # Authorized users to perform delete messages in group
     AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "").split())
 
 # ------------------------------------------ Optional Variables ------------------------------------------------------ #
     # Username of the group to tag in sending medias
-    GROUP_U_NAME = os.environ.get("GROUP_U_NAME", "@MovieKeralam")
+    GROUP_U_NAME = os.environ.get("GROUP_U_NAME", "@RatanTataGroup")
 
 
 def LOGGER(name: str) -> logging.Logger:
